@@ -9,3 +9,6 @@ This project is just a base for me to practice with [Rails Engines](https://guid
 - [x] SCSS structure — the customer style of an engine does NOT leak in the main application
 - [ ] Tests within an Engine? Pros/Cons?
 - [ ] All tests in the core application? Pros/Cons?
+- [ ] Use a helper from the core application
+- [ ] Configure ActionRecords model relations across engines
+- [ ] Configure a setting of the engine from the application
