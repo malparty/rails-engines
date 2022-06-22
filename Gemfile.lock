@@ -1,3 +1,9 @@
+PATH
+  remote: engines/blog
+  specs:
+    blog (0.1.0)
+      rails (>= 7.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -475,6 +481,7 @@ DEPENDENCIES
   awesome_print
   better_errors
   binding_of_caller
+  blog!
   bootsnap
   brakeman
   bullet

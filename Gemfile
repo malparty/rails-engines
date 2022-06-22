@@ -34,6 +34,11 @@ gem 'jsbundling-rails' # Bundle and transpile JavaScript
 gem 'i18n-js', '3.9.0' # A library to provide the I18n translations on the Javascript
 # gem 'devise-i18n' # Translations for Devise
 
+# Engines
+group :engines do
+  gem 'blog', path: 'engines/blog'
+end
+
 group :development do
   gem 'foreman' # Manage Procfile-based applications
   gem 'better_errors' # Better error page for Rails and other Rack apps
@@ -102,5 +107,3 @@ end
 group :production do
   gem 'rack-timeout' # Rack middleware which aborts requests that have been running for longer than a specified timeout.
 end
-
-gem 'blog', path: 'blog'

@@ -1,0 +1,34 @@
+<div class="col">
+  <div id="<%= dom_id post %>" class="card">
+    <div class="card-header">
+      <h2>
+        <%= post.title %>
+      </h2>
+    </div>
+    <div class="card-body">
+
+      <p>
+        <strong>Content:</strong>
+        <%= post.content %>
+      </p>
+
+      <p>
+        <strong>Created at:</strong>
+        <%= post.created_at %>
+      </p>
+
+      <p>
+        <strong>Updated at:</strong>
+        <%= post.updated_at %>
+      </p>
+
+      <p>
+        <strong>Status:</strong>
+        <%= post.status %>
+      </p>
+    </div>
+    <div class="card-footer">
+      <%= link_to "Show this post", post, class: 'card-link' %>
+    </div>
+  </div>
+</div>
